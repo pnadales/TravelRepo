@@ -71,7 +71,7 @@
     <section id="QuienesSomos" class="bg-black">
 
 
-        <div class="row pt-3">
+        <div class="row pt-3 container">
             <div class="col-md-4 col-lg-4 col-xl-4 text-center">
                 <div class="text-center bg-info">
                     <h2>
@@ -189,13 +189,53 @@
 
         </div>
     </section>
-
+    <!-- 
     <section id="Contacto" class="bg-black">
 
+        <div class="container">
+
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        
+
+    </section> -->
+
+
+    <section class="container-fluid bg-black">
+        <form action="post" class="container">
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="" />
+            </div>
+            <div class="mb-3">
+                <label for="asunto" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="asunto" placeholder="" />
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button id="enviarCorreo" type="submit" class="btn btn-secondary bg-info" data-bs-toggle="tooltip"
+                data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="example of tooltip">
+                Enviar
+            </button>
+        </form>
     </section>
-
-
-
 
 
 

@@ -1,0 +1,10 @@
+#navIm {
+    width: 2rem;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white;
+    /* --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important; */
+}

@@ -5,6 +5,9 @@
 .navbar-brand,
 .nav-link {
     color: white;
-    /* --bs-text-opacity: 1;
-    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important; */
+    text-shadow: 0.3px 0.3px lightslategrey;
+}
+
+.card-img-top {
+    height: 40%;
 }

@@ -1,8 +1,4 @@
-/* font-family: 'Open Sans',
-sans-serif;
-font-family: 'Roboto',
-sans-serif; */
-
+/* Estilo de fuente del sitio utilizando GoogleFonts */
 nav,
 section,
 header {
@@ -11,28 +7,27 @@ header {
 
 }
 
+/* tamaño de imagen navbar */
 #navIm {
     width: 2rem;
 }
 
+/* color y sombra de enlaces de navbar*/
 .navbar-brand,
 .nav-link {
     color: white;
     text-shadow: 0.3px 0.3px lightslategrey;
 }
 
+/* Tamaño de imagenes de tajetas */
 .card-img-top {
     height: 40%;
 }
 
+/* color, tamaño y padding de iconos footer */
 .FootIcon {
     font-size: 2rem;
     color: white;
     padding-left: 1rem;
 
-}
-
-#Viajes,
-.FootIcon {
-    vertical-align: middle;
 }

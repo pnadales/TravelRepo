@@ -7,10 +7,14 @@
     <meta name="autor" content="Paulo Nadales Jaramillo">
     <link rel="shortcut icon" type="image/png" href="assets/img/viajes.svg" />
     <title>Viajes Chile</title>
+    <!-- Enlace para usar la versión 5.3.2 de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Enlace para usar iconos de FontAwesome -->
     <script src="https://kit.fontawesome.com/8f26d62695.js" crossorigin="anonymous"></script>
+    <!-- Conexión con el arcivo de estilos CSS local -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Enlaces para usar estilos de fuente de GoogleFonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;500&display=swap"
@@ -19,13 +23,17 @@
 
 <body class="text-white">
 
+    <!-- Sección de navbar -->
     <nav class="navbar fixed-top navbar-expand-lg bg-info  bg-opacity-75 shadow-lg p-3 mb-5">
         <div class="container ">
-            <a class="navbar-brand" href="#"><img id="navIm" src="assets/img/viajes.svg" alt="">Viajes Chile</a>
+            <!-- Logo y nombre del sitio -->
+            <a class="navbar-brand" href="#"><img id="navIm" src="assets/img/viajes.svg" alt="Logo viajes Chile">Viajes
+                Chile</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- div con los enlaces a las secciones del sitio -->
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -45,18 +53,20 @@
         </div>
     </nav>
 
+    <!-- Sección header con carrusel -->
     <header>
 
+        <!-- Carrusel con tres imágenes obtenidas de la carpeta local img -->
         <div id="carouselExampleFade" class="carousel slide carousel-fade">
             <div class="carousel-inner ">
                 <div class="carousel-item active">
-                    <img src="assets/img/carousel1.jpg" class="img-fluid" alt="...">
+                    <img src="assets/img/carousel1.jpg" class="img-fluid" alt="Llamas en el desierto">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/img/carousel2.jpg" class="d-block img-fluid" alt="...">
+                    <img src="assets/img/carousel2.jpg" class="d-block img-fluid" alt="Moais en Isla de Pascua">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/img/carousel3.jpg" class="d-block img-fluid" alt="...">
+                    <img src="assets/img/carousel3.jpg" class="d-block img-fluid" alt="Pingüino">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
@@ -72,12 +82,15 @@
         </div>
     </header>
 
-
+    <!-- Sección quiénes somos -->
+    <!-- La sección desaparece en pantallas pequeñas -->
     <section id="QuienesSomos" class="bg-black pt-5 d-none d-md-block">
 
         <div class="container">
             <h2 class="text-center">¿QUIÉNES SOMOS?</h2>
             <hr class="--bs-tertiary-bg">
+            <!-- Etiqueta div que contiene una fila con columnas responsivas 
+            cada columna contiene un párrafo y un icono obtenido de FontAwesome-->
             <div class="row pt-3">
                 <div class="col-md-4 col-lg-4 col-xl-4">
                     <div class="text-center bg-info">
@@ -145,9 +158,12 @@
         </div>
     </section>
 
+
+
+    <!-- Sección Destacados -->
     <section id="Destacados" class="bg-black pt-5">
 
-
+        <!-- Esta sección contiene tarjetas ordenadas mediante el uso de filas y columnas -->
 
         <div class="container">
             <h2 class="text-center">DESTACADOS</h2>
@@ -156,7 +172,7 @@
 
                 <div class="col py-1">
                     <div class="card h-100">
-                        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                        <img src="assets/img/card1.jpg" class="card-img-top" alt="Lago rodeado de montañas">
                         <div class="card-body bg-info text-white">
                             <h4>Lorem ipsum dolor sit amet</h4>
                             <p class="card-text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. In,
@@ -167,7 +183,7 @@
 
                 <div class="col py-1">
                     <div class="card h-100">
-                        <img src="assets/img/card2.jpg" class="card-img-top mh-40" alt="...">
+                        <img src="assets/img/card2.jpg" class="card-img-top mh-40" alt="Agua en el desierto">
                         <div class="card-body bg-info text-white h-60">
                             <h4>Consectetur adipisicing elit</h4>
                             <p class="card-text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. In,
@@ -177,7 +193,7 @@
                 </div>
                 <div class="col py-1">
                     <div class="card h-100">
-                        <img src="assets/img/card3.jpg" class="card-img-top mh-40" alt="...">
+                        <img src="assets/img/card3.jpg" class="card-img-top mh-40" alt="Persona en el agua">
                         <div class="card-body bg-info text-white h-10">
                             <h4>Sed do eiusmod tempor incididut ut labore</h4>
                             <p class="card-text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. In,
@@ -187,7 +203,7 @@
                 </div>
                 <div class="col py-1">
                     <div class="card h-100">
-                        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                        <img src="assets/img/card4.jpg" class="card-img-top" alt="Bosque">
                         <div class="card-body bg-info text-white">
                             <h4>Ut enim ad minim veniam</h4>
                             <p class="card-text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. In,
@@ -203,10 +219,12 @@
 
         </div>
     </section>
-
+    <!-- Seccion de Contacto -->
     <section id="Contacto" class="container-fluid bg-black py-5">
         <h2 class="text-center">CONTACTO</h2>
         <hr class="--bs-tertiary-bg">
+
+        <!-- Formulario para enviar un mensaje con nombre y asunto -->
         <form action="post" class="container">
             <div class="mb-3">
                 <label for="" class="form-label">Nombre</label>
@@ -220,6 +238,7 @@
                 <label for="message" class="form-label">Mensaje</label>
                 <textarea class="form-control" id="message" rows="3"></textarea>
             </div>
+            <!-- Boton contiene tooltip -->
             <button id="BotonContacto" type="submit" class="btn btn-secondary bg-info" data-bs-toggle="tooltip"
                 data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Enviar mensaje">
                 Enviar
@@ -227,13 +246,14 @@
         </form>
     </section>
 
-
+    <!-- Sección Footer -->
     <footer class="bg-info text-center container-fluid py-3">
         <div class="row">
             <div class="col-xs-12 col-md-6">
                 <h2 id="Viajes">VIAJES CHILE</h2>
             </div>
-
+            <!-- iconos obtenidos de FontAwesome con enlaces a redes sociales
+            Con tooltip de su respectivo nombre -->
             <div class="col-xs-12 col-md-6">
                 <a href="https://github.com/" data-bs-toggle="tooltip" data-bs-title="GitHub">
 

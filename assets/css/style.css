@@ -24,3 +24,15 @@ header {
 .card-img-top {
     height: 40%;
 }
+
+.FootIcon {
+    font-size: 2rem;
+    color: white;
+    padding-left: 1rem;
+
+}
+
+#Viajes,
+.FootIcon {
+    vertical-align: middle;
+}

@@ -73,7 +73,7 @@
     </header>
 
 
-    <section id="QuienesSomos" class="bg-black py-5">
+    <section id="QuienesSomos" class="bg-black pt-5 d-none d-md-block">
 
         <div class="container">
             <h2 class="text-center">¿QUIÉNES SOMOS?</h2>
@@ -145,7 +145,7 @@
         </div>
     </section>
 
-    <section id="Destacados" class="bg-black">
+    <section id="Destacados" class="bg-black pt-5">
 
 
 
@@ -154,7 +154,7 @@
             <hr class="--bs-tertiary-bg">
             <div class=" row row-cols-1 row-cols-md-4">
 
-                <div class="col">
+                <div class="col py-1">
                     <div class="card h-100">
                         <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
                         <div class="card-body bg-info text-white">
@@ -165,7 +165,7 @@
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col py-1">
                     <div class="card h-100">
                         <img src="assets/img/card2.jpg" class="card-img-top mh-40" alt="...">
                         <div class="card-body bg-info text-white h-60">
@@ -175,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col py-1">
                     <div class="card h-100">
                         <img src="assets/img/card3.jpg" class="card-img-top mh-40" alt="...">
                         <div class="card-body bg-info text-white h-10">
@@ -185,7 +185,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col py-1">
                     <div class="card h-100">
                         <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
                         <div class="card-body bg-info text-white">
@@ -204,24 +204,24 @@
         </div>
     </section>
 
-    <section class="container-fluid bg-black py-5" id="Contacto">
+    <section id="Contacto" class="container-fluid bg-black py-5">
         <h2 class="text-center">CONTACTO</h2>
         <hr class="--bs-tertiary-bg">
         <form action="post" class="container">
             <div class="mb-3">
-                <label for="email" class="form-label">Correo electrónico</label>
-                <input type="email" class="form-control" id="email" placeholder="" />
+                <label for="" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="FormNombre" placeholder="" />
             </div>
             <div class="mb-3">
                 <label for="asunto" class="form-label">Asunto</label>
-                <input type="text" class="form-control" id="asunto" placeholder="" />
+                <input type="text" class="form-control" id="FormAsunto" placeholder="" />
             </div>
             <div class="mb-3">
                 <label for="message" class="form-label">Mensaje</label>
                 <textarea class="form-control" id="message" rows="3"></textarea>
             </div>
-            <button id="enviarCorreo" type="submit" class="btn btn-secondary bg-info" data-bs-toggle="tooltip"
-                data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="example of tooltip">
+            <button id="BotonContacto" type="submit" class="btn btn-secondary bg-info" data-bs-toggle="tooltip"
+                data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" data-bs-title="Enviar mensaje">
                 Enviar
             </button>
         </form>
@@ -231,14 +231,26 @@
     <footer class="bg-info text-center container-fluid py-3">
         <div class="row">
             <div class="col-xs-12 col-md-6">
-                <h2>VIAJES CHILE</h2>
+                <h2 id="Viajes">VIAJES CHILE</h2>
             </div>
 
             <div class="col-xs-12 col-md-6">
-                <i class="fa-brands fa-square-github"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-twitter-square"></i>
-                <i class="fa-brands fa-facebook-square"></i>
+                <a href="https://github.com/" data-bs-toggle="tooltip" data-bs-title="GitHub">
+
+                    <i class="fa-brands fa-square-github FootIcon"></i>
+                </a>
+                <a href="https://www.linkedin.com/" data-bs-toggle="tooltip" data-bs-title="Linkedin">
+
+                    <i class="fa-brands fa-linkedin FootIcon"></i>
+                </a>
+                <a href="https://twitter.com/" data-bs-toggle="tooltip" data-bs-title="X">
+
+                    <i class="fa-brands fa-twitter-square FootIcon"></i>
+                </a>
+                <a href="https://www.facebook.com/" data-bs-toggle="tooltip" data-bs-title="Facebook">
+
+                    <i class="fa-brands fa-facebook-square FootIcon"></i>
+                </a>
             </div>
 
         </div>

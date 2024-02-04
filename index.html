@@ -11,41 +11,44 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/8f26d62695.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body class="text-white">
-    <section>
-        <nav class="navbar fixed-top navbar-expand-lg bg-info  bg-opacity-75 shadow-lg p-3 mb-5">
-            <div class="container ">
-                <a class="navbar-brand" href="#"><img id="navIm" src="assets/img/viajes.svg" alt="">Viajes Chile</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#QuienesSomos">Quiénes Somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#Destacados">Destacados</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#Contacto">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-info  bg-opacity-75 shadow-lg p-3 mb-5">
+        <div class="container ">
+            <a class="navbar-brand" href="#"><img id="navIm" src="assets/img/viajes.svg" alt="">Viajes Chile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#QuienesSomos">Quiénes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Destacados">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </section>
+        </div>
+    </nav>
 
     <header>
 
-        <div id="carouselExampleFade" class="carousel slide carousel-fade w-auto">
-            <div class="carousel-inner container-fluid">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner ">
                 <div class="carousel-item active">
                     <img src="assets/img/carousel1.jpg" class="img-fluid" alt="...">
                 </div>
@@ -70,7 +73,7 @@
     </header>
 
 
-    <section id="QuienesSomos" class="bg-black">
+    <section id="QuienesSomos" class="bg-black py-5">
 
         <div class="container">
             <h2 class="text-center">¿QUIÉNES SOMOS?</h2>
@@ -151,7 +154,7 @@
             <hr class="--bs-tertiary-bg">
             <div class=" row row-cols-1 row-cols-md-4">
 
-                <div class="col mb-4">
+                <div class="col">
                     <div class="card h-100">
                         <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
                         <div class="card-body bg-info text-white">
@@ -162,7 +165,7 @@
                     </div>
                 </div>
 
-                <div class="col mb-4">
+                <div class="col">
                     <div class="card h-100">
                         <img src="assets/img/card2.jpg" class="card-img-top mh-40" alt="...">
                         <div class="card-body bg-info text-white h-60">
@@ -172,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col mb-4">
+                <div class="col">
                     <div class="card h-100">
                         <img src="assets/img/card3.jpg" class="card-img-top mh-40" alt="...">
                         <div class="card-body bg-info text-white h-10">
@@ -182,7 +185,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col mb-4">
+                <div class="col">
                     <div class="card h-100">
                         <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
                         <div class="card-body bg-info text-white">
@@ -200,33 +203,8 @@
 
         </div>
     </section>
-    <!-- 
-    <section id="Contacto" class="bg-black">
 
-        <div class="container">
-
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
-        
-
-    </section> -->
-
-    <section class="container-fluid bg-black" id="Contacto">
+    <section class="container-fluid bg-black py-5" id="Contacto">
         <h2 class="text-center">CONTACTO</h2>
         <hr class="--bs-tertiary-bg">
         <form action="post" class="container">
@@ -250,7 +228,7 @@
     </section>
 
 
-    <footer class="bg-info text-center">
+    <footer class="bg-info text-center container-fluid py-3">
         <div class="row">
             <div class="col-xs-12 col-md-6">
                 <h2>VIAJES CHILE</h2>

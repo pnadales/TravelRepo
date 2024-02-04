@@ -1,3 +1,16 @@
+/* font-family: 'Open Sans',
+sans-serif;
+font-family: 'Roboto',
+sans-serif; */
+
+nav,
+section,
+header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+
+}
+
 #navIm {
     width: 2rem;
 }
